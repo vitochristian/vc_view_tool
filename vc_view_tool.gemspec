@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["rails@gmail.com"]
 
   spec.summary       = %q{A Gem to help us learn how to create gem}
-  spec.homepage      = "git@github.com:vitochristian/vc_view_tool.git"
-
+  spec.homepage      = "https://github.com/vitochristian/vc_view_tool"
+  
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
